@@ -4,24 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <header>
-    <h1>AI Poem Generator</h1>
-  </header>
-  <main>
-    <form action="">
-      <input type="text" placeholder="Enter the topic of the poem">
-      <input type="submit" value="Submit">
-      <p>eg: Flower, Paris or Cheese</p>
-    </form>
-
-    <div>
-      poem
-    </div>
-  </main>
-  <footer>
-    <p>This AI coded by Feven and <a href="https://github.com/feven-5/AI-poem-generator">open-sourced on GitHub</a> and is <a href="https://feven-5.github.io/AI-poem-generator/">deployed on GitHub</a>.</p>
-  </footer>
+  <div class="container">
+    <header>
+      <h1>AI Poem Generator</h1>
+    </header>
+    <main>
+      <form action="">
+        <input class="text" type="text" placeholder="Enter the topic of the poem">
+        <input class="submit" type="submit" value="Submit">
+        <p>eg: Flower, Paris or Cheese</p>
+      </form>
+    
+      <div class="poem">
+        <p>⏳ Generating a French poem about <span>Search</span></p>
+      </div>
+    </main>
+    <footer>
+      <p>This AI coded by Feven and <a href="https://github.com/feven-5/AI-poem-generator">open-sourced on GitHub</a> and is
+        <a href="https://feven-5.github.io/AI-poem-generator/">deployed on GitHub</a>.</p>
+    </footer>
+  </div>
 </body>
 </html>

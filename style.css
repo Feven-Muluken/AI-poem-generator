@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", serif;
+  background: #F5F1FE;
+}
+
+.container {
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  font-size: small;
+}
+
+form p {
+  color: #757575;
+}
+
+form {
+  border: blue 1px;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+  background: #fff;
+  padding: 20px 2%;
+  box-shadow: 2px 2px 2px 1px rgba(212, 210, 210, 0.2);
+}
+
+.text {
+  width: 73%;
+  border: 1px solid #c6c5c8;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.text:focus {}
+
+.submit {
+  width: 20%;
+  border: none;
+  background: #885df1;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px 0;
+  margin-left: 5px;
+}
+
+.poem {
+  border-left: 2px solid #7693f6;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px 2%;
+}
+
+.poem p {
+  font-size: 14px;
+}
+
+a {
+  color: #885df1;
+  text-decoration: none;
+}
+
+footer {
+  width: 50%;
+  margin: auto;
+}
+
