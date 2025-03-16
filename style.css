@@ -59,15 +59,7 @@ form {
   }
 }
 
-#poem {
-  /* width: 60%; */
-  margin: auto;
-  /* margin-top: 20px; */
-  padding: 20px 0;
-  font-size: medium; 
-  background: #fff;
-}
-#fool{
+#writePoem{
   background: #fff;
   border-left: 2px solid #7693f6;
   width: 60%;
@@ -77,15 +69,23 @@ form {
   font-size: medium;
   background: #fff;
 }
+.hidden{
+  display: none;
+}
 
-  .poem p{
-    line-height: 2;
-    height: max-content;
+@keyframes blink {
+  to {
+    visibility: hidden;
   }
-  .poem p{
-    background-color: inherit;
-    color: inherit;
+}@-webkit-keyframes blink{
+  to{
+    visibility: hidden;
   }
+}
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+}
+
 a {
   color: #885df1;
   text-decoration: none;
